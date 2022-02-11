@@ -1,6 +1,7 @@
 name: Attach PR to Asana
 
 on:
+  push:
   pull_request:
     types: [opened, reopened]
 
